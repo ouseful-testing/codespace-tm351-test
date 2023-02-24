@@ -20,9 +20,9 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-			//"ms-python.python",
-		        //"ms-toolsai.jupyter",
-		        //"ExecutableBookProject.myst-highlight"
+			"ms-python.python",
+		        "ms-toolsai.jupyter",
+		        "ExecutableBookProject.myst-highlight"
 		      ],
 
 	// Uncomment the next line if you want to keep your containers running after VS Code shuts down.
