@@ -3,9 +3,9 @@ services:
   tm351:
     image: mmh352/tm351:22j.0b6
     volumes:
-      - ./workspace/tm351:/home/jovyan/tm351
-      - ./workspace/openrefine:/home/jovyan/openrefine
-      - ./workspace/work:/home/jovyan/work
+      - /workspace/tm351:/home/jovyan/tm351
+      - /workspace/openrefine:/home/jovyan/openrefine
+      - /workspace/work:/home/jovyan/work
     ports:
       - '35180:8888'
     restart: unless-stopped
