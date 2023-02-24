@@ -1,11 +1,11 @@
 version: '3'
 services:
   tm351:
-    image: stemts/vce-tm351
+    image: mmh352/tm351
     volumes:
-      - ./data/tm351:/home/jovyan/tm351
-      - ./data/openrefine:/home/jovyan/openrefine
-      - ./data/work:/home/jovyan/work
+      - ./workspace/tm351:/home/jovyan/tm351
+      - ./workspace/openrefine:/home/jovyan/openrefine
+      - ./workspace/work:/home/jovyan/work
     ports:
       - '35180:8888'
     restart: unless-stopped
