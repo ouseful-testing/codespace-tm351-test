@@ -1,7 +1,7 @@
 version: '3'
 services:
   tm351:
-    image: mmh352/tm351:22j.0b6
+    image: ouvocl/vce-tm351-jh:22j-b6
     volumes:
       - /workspace/tm351:/home/jovyan/tm351
       - /workspace/openrefine:/home/jovyan/openrefine
