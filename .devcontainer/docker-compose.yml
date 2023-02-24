@@ -1,0 +1,13 @@
+version: '3'
+services:
+  tm351:
+    image: stemts/vce-tm351
+    volumes:
+      - ./data/tm351:/home/jovyan/tm351
+      - ./data/openrefine:/home/jovyan/openrefine
+      - ./data/work:/home/jovyan/work
+    ports:
+      - '35180:8888'
+    restart: unless-stopped
+    environment:
+      JUPYTER_TOKEN: letmein
