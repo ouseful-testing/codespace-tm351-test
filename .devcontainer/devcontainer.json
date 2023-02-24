@@ -19,7 +19,7 @@
 	"settings": {},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": ["ms-toolsai.jupyter", "ms-python.python"],
+	"extensions": ["ms-python.python"],
 
 	// Uncomment the next line if you want to keep your containers running after VS Code shuts down.
 	// "shutdownAction": "none",
