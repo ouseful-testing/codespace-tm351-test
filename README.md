@@ -27,7 +27,9 @@ Then paste in the above URL.
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/82988/221208747-20a9bf23-7096-40e9-8a33-9a30d1a66369.png">
 
-You should then be able to connect to the *Python 3 (ipykernel) (Remote) Jupyter kernel*.
+You should then be able to connect to the *Python 3 (ipykernel)*(Remote) Jupyter kernel*.
+
+NOTE: sometimes, I seem to be able to connect just to *Python 3 (ipykernel)* and that seems to now function correctly, eg if I restart the workspace. There is something decidely iffy going on (almost as if the kernel is picked up by default, but not the token?), so at this point I couldn't recommend using the workspace given the doubt of being abel to reliably and knowlngly connect to the correct kernel. It would be useful to be able to set up the kernel URL connection etc in a `.devcontainer` settings file.
 
 <img width="963" alt="image" src="https://user-images.githubusercontent.com/82988/221204276-b50a3a22-e0a4-43c4-8531-8f0495901beb.png">
 
