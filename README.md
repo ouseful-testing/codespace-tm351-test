@@ -82,5 +82,9 @@ But then I try again...
 
 <img width="725" alt="image" src="https://user-images.githubusercontent.com/82988/221226514-57cffdb9-c1c3-4b08-886f-c914b8bcb736.png">
 
+And OpenRefine breaks too...
+
+<img width="725" alt="image" src="https://user-images.githubusercontent.com/82988/221229089-bbd96c52-c6d4-4a66-b435-644efde7c5e0.png">
+
 
 __At this point, I get the feeling that this is not really viable - the current setup/recipe above seems a bit fraught and hacky, but we can get to a working JupyterLab instance. It'd be nice to have a robust set of instructions that work reliably, and also to find a way customise the JupyerLab environment (or is it somehow picking up the JupyterLab environment in the container???). I'm also not sure I've got a good model of how the CodeSpace actually works...__
