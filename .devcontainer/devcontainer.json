@@ -1,5 +1,5 @@
 {
-	"name": "TH TM351 Codespace devcontainr test",
+	"name": "TH TM351 Codespace devcontainer test",
 
 	// Update the 'dockerComposeFile' list if you have more compose files or use different names.
 	"dockerComposeFile": "docker-compose.yml",
@@ -16,7 +16,7 @@
 	"settings": {},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [],
+	"extensions": ["ms-toolsai.jupyter", "ms-python.python"],
 
 	// Uncomment the next line if you want to keep your containers running after VS Code shuts down.
 	// "shutdownAction": "none",
