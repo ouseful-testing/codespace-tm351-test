@@ -3,4 +3,4 @@
 
 This repo demonstrates settings for running an OU built Docker container inside Github Codespace.
 
-Notebooks can be opened using the default VSCode editor. The TM351 kernel can be connected to as `http://localhost:8888?token=test`.
+Notebooks can be opened using the default VSCode editor. The TM351 kernel can be connected to as `http://localhost:8888?token=letmein`.
