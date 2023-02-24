@@ -78,5 +78,9 @@ And the correct kernel seems to be available; for example, the databases are con
 
 <img width="892" alt="image" src="https://user-images.githubusercontent.com/82988/221223732-b6919975-b6f7-4fe1-a4c1-9a24691662a0.png">
 
+But then I try again...
 
-__At this point, I get the feeling that this is minimally viable - the current setup/recipe above seems a bit fraught and hacky, but we can get to a working JupyterLab instance. It'd be nice to have a robust set of instructions that work reliably, and also to find a way customise the JupyerLab environment (or is it somehow picking up the JupyterLab environment in the container???). I'm also not sure I've got a good model of how the CodeSpace actually works...__
+<img width="725" alt="image" src="https://user-images.githubusercontent.com/82988/221226514-57cffdb9-c1c3-4b08-886f-c914b8bcb736.png">
+
+
+__At this point, I get the feeling that this is not really viable - the current setup/recipe above seems a bit fraught and hacky, but we can get to a working JupyterLab instance. It'd be nice to have a robust set of instructions that work reliably, and also to find a way customise the JupyerLab environment (or is it somehow picking up the JupyterLab environment in the container???). I'm also not sure I've got a good model of how the CodeSpace actually works...__
