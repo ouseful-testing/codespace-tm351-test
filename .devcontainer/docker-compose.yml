@@ -6,6 +6,7 @@ services:
       - ./tm351:/home/jovyan/tm351
       - ./openrefine:/home/jovyan/openrefine
       - ./work:/home/jovyan/work
+      - ./:/home/jovyan/repo
     ports:
       - '35180:8888'
     restart: unless-stopped
