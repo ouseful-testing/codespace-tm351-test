@@ -1,7 +1,7 @@
 version: '3'
 services:
   tm351:
-    image: ouvocl/vce-tm351-jh:22j-b8
+    image: ouvocl/vce-tm351-jh:22j-b6
     #build: .
     volumes:
       - ./tm351:/home/jovyan/tm351
